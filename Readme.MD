@@ -1,4 +1,4 @@
-# Arcade Python
+# Màquina Arcade
 
 La màquina Arcade es basa en una màquina de jocs que el componen 3 jocs diferents: El del paper/tisora/pedra, el del número aleatori i el de cara i creu.
 
