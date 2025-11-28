@@ -12,11 +12,11 @@ Aquest projecte serveix per a repassar tot el que hem estat pràcticant a classe
 
 El joc es basa bàsicament en bucles principals que gestionen les opcions que triarà l'usuari com per exemple si vol fer una partida al millor de 3 victòries o a 5 rondes segons es doni el cas.
 
-### Joc 2: Endevinar el Número
+### Joc nº2: Endevinar el Número
 
 La màquina lògica genera un número i l'usuari l'ha d'endevinar. El joc es compon de diferents bucles comparant els resultats i les opcions que introdueix el jugador i depèn que tria el programa fa una cosa o una altra.
 
-## Joc 3: Llançament de moneda
+### Joc nº3: Llançament de moneda
 El tercer joc bàsicament es tracta com el demés. Primer crearem una classe on definirem els mètodes i els objectes en aquest cas "màquina moneda" que serà la que jugarem contra ella al joc. Després hi ha un bucle principal que s'encarrega de segons el que triï l'usuari farà una cosa o l'altra.
 ## Execució del joc 
 
