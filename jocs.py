@@ -60,11 +60,11 @@ def janken (): # Funció principal del joc pedra, paper, tisora
         jugada_maquina = maquina_joc.playing () # Obté la jugada de la màquina
         print (f"Robot: {jugada_maquina}") # Mostra la jugada de la màquina 
 
-        # 3. Comparar i actualitzar puntuacions
-        resultat = guanyador (jugada_usuari, jugada_maquina) # Determina el guanyador de la ronda
+        # 3. Compara i actualitza les puntuacions de l'usuari i de la màquina
+        resultat = guanyador (jugada_usuari, jugada_maquina) # Fa una comparació entre les jugades per determinar el guanyador
         
-        if resultat == "jugador": # Comprova si el jugador ha guanyat la ronda
-            scorejugador += 1 # Incrementa la puntuació del jugador
+        if resultat == "jugador": # Si el guanyador és el jugador se li sumara un punt
+            scorejugador += 1 
             print ("Has guanyat la ronda!") 
 
         elif resultat == "maquina": # Comprova si la màquina ha guanyat la ronda
@@ -108,7 +108,7 @@ def nana (): # Funció principal del joc endevinar el número
                 print ("Fins aviat has decidit sortir del joc.") # Missatge de sortida del joc
                 return
     
-        numero_introduit = int (intent) # Converteix l'entrada de l'usuari a enter si no no serà vàlid
+        numero_introduit = int (intent) # Converteix l'entrada de l'usuari a enter si no no serà vàlid (càsting)
         intents += 1  
         if numero_introduit < numero_secret: # Comprova si el número és més alt o més baix que el aleotri per la màquina
             print ("Més alt.")
